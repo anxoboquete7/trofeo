@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #97f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Estilos para la sección del perfil de PSN */
+.psn-profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.psn-profile img {
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la lista de juegos */
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.game {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.game h2 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.game p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .game img {
+        width: 100%;
+        height: auto;
+    }
+
+    .psn-profile img {
+        width: 150px;
+    }
+}
