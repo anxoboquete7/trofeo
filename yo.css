@@ -137,3 +137,32 @@ footer .social-links a {
 footer .social-links a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    header nav ul li {
+        margin: 5px 0; /* Espaciado vertical en los enlaces del menú */
+    }
+
+    main img {
+        max-width: 150px; /* Reducir tamaño de la imagen en pantallas pequeñas */
+    }
+
+    main p {
+        font-size: 1em; /* Reducir tamaño de fuente del párrafo */
+    }
+
+    footer h3 {
+        font-size: 1rem; /* Ajustar tamaño de fuente del footer */
+    }
+}
