@@ -145,19 +145,7 @@ footer .social-links a:hover {
     }
 
     main img {
-        max-width: 150px; /* Reducir tamaño de la imagen en pantallas pequeñas */
+        max-width: 90%; /* Aumentar el tamaño de la imagen en pantallas pequeñas */
+        height: auto; /* Mantener la relación de aspecto */
     }
-
-    main p {
-        font-size: 1em; /* Reducir tamaño de fuente del párrafo */
-    }
-
-    footer h3 {
-        font-size: 1rem; /* Ajustar tamaño de fuente del footer */
-    }
-
-    footer .social-links li {
-        display: block; /* Colocar enlaces de redes sociales en vertical */
-        margin: 5px 0; /* Espaciado vertical entre enlaces */
-    }
-}
+} 
