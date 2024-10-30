@@ -1,0 +1,163 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 80px; /* Espacio superior para el header */
+    padding-bottom: 80px; /* Espacio inferior para el footer */
+}
+
+main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+main img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+main p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Estilos para header fijo */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #f1f1f1;
+    margin-left: 15px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6b6b;
+}
+
+/* Estilos para footer fijo */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer .social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px; /* Espaciado reducido */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Tamaño de fuente reducido */
+        margin: 10px 0; /* Espacio vertical ajustado */
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    header nav ul li {
+        margin: 5px 0; /* Espaciado vertical en los enlaces del menú */
+    }
+
+    main img {
+        max-width: 150px; /* Reducir tamaño de la imagen en pantallas pequeñas */
+    }
+
+    main p {
+        font-size: 1em; /* Reducir tamaño de fuente del párrafo */
+    }
+
+    footer h3 {
+        font-size: 1rem; /* Ajustar tamaño de fuente del footer */
+    }
+
+    footer .social-links li {
+        display: block; /* Colocar enlaces de redes sociales en vertical */
+        margin: 5px 0; /* Espaciado vertical entre enlaces */
+    }
+}
