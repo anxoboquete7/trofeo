@@ -127,6 +127,33 @@ header nav ul li a:hover {
     font-size: 1em;
 }
 
+.extra-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game .extra-info {
+    display: flex;
+    align-items: center; /* Esto alinea todos los elementos al centro verticalmente */
+    justify-content: center;
+    margin-top: 30px;
+    height: 80px; /* Fija una altura para alinear todo uniformemente */
+}
+
+.game .extra-info img {
+    width: 80px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 30px;
+    margin-right: 10px;
+    align-self: center; /* Asegura que las imágenes se mantengan centradas */
+}
+
+.extra-info p {
+    margin: 0;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     background-color: #2c3e50;
@@ -161,20 +188,7 @@ footer ul.social-links a:hover {
     color: #ff6b6b;
 }
 
-.extra-info {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
 
-.extra-info img {
-    margin-right: 10px;
-}
-
-.extra-info p {
-    margin: 0;
-    font-weight: bold;
-}
 
 /* Media Queries */
 @media (max-width: 768px) {
