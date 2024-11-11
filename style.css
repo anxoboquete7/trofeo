@@ -6,7 +6,6 @@ body {
     padding: 0;
     color: #333;
 }
-
 /* Títulos */
 h1 {
     text-align: center;
@@ -23,44 +22,50 @@ p {
 
 /* Header principal */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+    display: flex; /* Permite que los hijos se alineen en fila */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    justify-content: space-between; /* Espacia el contenido a los lados */
+    padding: 20px; /* Espacio interno del header */
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
 }
 
 header img {
-    width: 50px;
-    height: auto;
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+    margin-right: 20px; /* Espacio entre la imagen y el título */
 }
 
 header h1 {
-    font-size: 1.8rem;
-    color: #f1f1f1;
+    font-size: 1.8rem; /* Tamaño del texto */
+    color: #f1f1f1; /* Color del texto */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+header nav {
+    margin-left: auto; /* Empuja la navegación a la derecha */
 }
 
 header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex; /* Alinea los elementos de la lista en fila */
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
 }
 
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 20px; /* Espacio entre los elementos de la lista */
 }
 
 header nav ul li a {
-    color: #f1f1f1;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s ease;
+    color: #f1f1f1; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 1rem; /* Tamaño del texto de los enlaces */
+    transition: color 0.3s ease; /* Transición para el color */
 }
 
 header nav ul li a:hover {
-    color: #ff6b6b;
+    color: #ff6b6b; /* Color al pasar el ratón sobre el enlace */
 }
 
 /* Perfil de PSN */
@@ -121,6 +126,33 @@ header nav ul li a:hover {
     font-size: 1em;
 }
 
+.extra-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game .extra-info {
+    display: flex;
+    align-items: center; /* Esto alinea todos los elementos al centro verticalmente */
+    justify-content: center;
+    margin-top: 30px;
+    height: 80px; /* Fija una altura para alinear todo uniformemente */
+}
+
+.game .extra-info img {
+    width: 80px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 30px;
+    margin-right: 10px;
+    align-self: center; /* Asegura que las imágenes se mantengan centradas */
+}
+
+.extra-info p {
+    margin: 0;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     background-color: #2c3e50;
@@ -154,6 +186,8 @@ footer ul.social-links a {
 footer ul.social-links a:hover {
     color: #ff6b6b;
 }
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
