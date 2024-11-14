@@ -68,7 +68,51 @@ header nav ul li a:hover {
     color: #ff6b6b; /* Color al pasar el ratón sobre el enlace */
 }
 
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh; /* Ocupa 80% de la altura del viewport para reducir el espacio superior e inferior */
+  }
 
+  /* Contenedor principal en forma de cuadrado blanco */
+  .square-container {
+    width: 150px; /* Tamaño del cuadrado */
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+  /* Contenedor para alinear el número y la imagen */
+  .number-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .square-container{
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .number {
+    font-size: 30px; /* Tamaño del número */
+    font-weight: bold;
+    margin-right: 8px; /* Espacio entre el número y la imagen */
+  }
+
+  .icon {
+    width: 60px; /* Ancho de la imagen */
+    height: auto; /* Alto de la imagen */
+  }
+  .square-container:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 /* Lista de juegos */
 .game-list {
     display: grid;
