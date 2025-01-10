@@ -1,26 +1,20 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    background: radial-gradient(circle, #caf5f6, #fd90f1);
+* {
     margin: 0;
     padding: 0;
-    color: #333;
-}
-/* Títulos */
-h1 {
-    text-align: center;
-    color: #2c3e50;
-    font-size: 2.2em;
-    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
-p {
-    text-align: center;
-    color: #555;
-    font-size: 1.1em;
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background: radial-gradient(circle, #caf5f6, #fd90f1);
+    min-height: 100vh;
+    height: 100%; /* Asegura que ocupen toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
 }
 
-/* Header principal */
 header {
     display: flex; /* Permite que los hijos se alineen en fila */
     align-items: center; /* Alinea verticalmente los elementos al centro */
@@ -68,119 +62,66 @@ header nav ul li a:hover {
     color: #ff6b6b; /* Color al pasar el ratón sobre el enlace */
 }
 
-.main-container {
+main {
+    flex: 1; 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 30vh; /* Ocupa 80% de la altura del viewport para reducir el espacio superior e inferior */
-  }
-
-  /* Contenedor principal en forma de cuadrado blanco */
-  .square-container {
-    width: 150px; /* Tamaño del cuadrado */
-    height: 150px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ddd; /* Borde gris claro */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    border-radius: 5px;
-    padding: 2px;
-  }
-
-  /* Contenedor para alinear el número y la imagen */
-  .number-container {
-    display: flex;
-    align-items: center;
-  }
-
-  .square-container{
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
-
-  .number {
-    font-size: 30px; /* Tamaño del número */
-    font-weight: bold;
-    margin-right: 8px; /* Espacio entre el número y la imagen */
-  }
-
-  .icon {
-    width: 60px; /* Ancho de la imagen */
-    height: auto; /* Alto de la imagen */
-  }
-  .square-container:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    flex-direction: column; 
 }
-/* Lista de juegos */
-.game-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
     gap: 20px;
-    padding: 0 20px;
+    justify-content: center;
 }
 
-.game {
+article {
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
     text-align: center;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.game:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.game img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.game h2 {
-    color: #34495e;
-    font-size: 1.4em;
+article h2 {
+    font-size: 1.5rem;
+    color: #333;
     margin-bottom: 10px;
 }
 
-.game p {
-    color: #666;
-    font-size: 1em;
-}
-
-.extra-info {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.game .extra-info {
-    display: flex;
-    align-items: center; /* Esto alinea todos los elementos al centro verticalmente */
-    justify-content: center;
-    margin-top: 30px;
-    height: 80px; /* Fija una altura para alinear todo uniformemente */
-}
-
-.game .extra-info img {
-    width: 80px;
+article img {
+    width: 100%; /* Ajusta el ancho al contenedor */
+    max-width: 100%; /* Evita que la imagen exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
-    margin-left: 30px;
-    margin-right: 10px;
-    align-self: center; /* Asegura que las imágenes se mantengan centradas */
+    border-radius: 8px; /* Aplica bordes redondeados */
+    margin-bottom: 10px;
+    object-fit: cover; /* Si deseas recortar partes sobrantes */
 }
 
-.extra-info p {
-    margin: 0;
-    font-weight: bold;
+article p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
 }
 
-/* Footer */
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 footer {
     background-color: #2c3e50;
     color: #fff;
@@ -212,31 +153,4 @@ footer ul.social-links a {
 
 footer ul.social-links a:hover {
     color: #ff6b6b;
-}
-
-
-
-/* Media Queries */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    header img {
-        margin-bottom: 10px;
-    }
-    
-    header nav ul {
-        flex-direction: column;
-    }
-
-    .psn-profile img {
-        width: 250px;
-    }
-    
-    h1 {
-        font-size: 1.8em;
-    }
 }
