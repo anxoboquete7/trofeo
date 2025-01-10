@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+#1{
+    width: 1024px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: radial-gradient(circle, #caf5f6, #fd90f1);
@@ -22,10 +26,11 @@ main {
 }
 
 main img {
-    max-width: 200px;
+    width: 200px;
     border-radius: 10px;
-    margin: 20px 0; /* Margen superior e inferior */
+    margin: 20px 0;
 }
+
 
 main p {
     font-size: 1.2em;
