@@ -21,10 +21,18 @@
     </header>
     <main>
         
-        <audio controls loop>
-            <source src="/IMG/Wii Music - Gaming Background Music (HD).mp3" type="audio/mp3">
-            Tu navegador no soporta el elemento de audio.
-          </audio>
+        <audio autoplay loop style="display: none;"> 
+            <source src="/IMG/Wii Music - Gaming Background Music (HD).mp3" type="audio/mp3"> 
+            Tu navegador no soporta el elemento de audio. 
+        </audio>
+        <script>
+            window.addEventListener('load', function() {
+              var audio = document.querySelector('audio');
+              audio.play().catch(function(error) {
+                console.log("El navegador impidió la reproducción automática: " + error);
+              });
+            });
+            </script>
           
 
     <section>
