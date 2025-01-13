@@ -33,6 +33,24 @@
               });
             });
             </script>
+            <script>
+                function playAudio() {
+                    var audio = document.querySelector('audio');
+                    audio.play();
+                }
+            
+                window.addEventListener('load', function() {
+                    var audio = document.querySelector('audio');
+                    audio.play().catch(function(error) {
+                        console.log("El navegador impidió la reproducción automática: " + error);
+                    });
+                });
+            
+                document.addEventListener('click', function() {
+                    var audio = document.querySelector('audio');
+                    audio.play();
+                });
+            </script>
           
 
     <section>

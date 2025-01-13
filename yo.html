@@ -38,7 +38,26 @@
               });
             });
             </script>
+            <script>
+                function playAudio() {
+                    var audio = document.querySelector('audio');
+                    audio.play();
+                }
             
+                window.addEventListener('load', function() {
+                    var audio = document.querySelector('audio');
+                    audio.play().catch(function(error) {
+                        console.log("El navegador impidió la reproducción automática: " + error);
+                    });
+                });
+            
+                document.addEventListener('click', function() {
+                    var audio = document.querySelector('audio');
+                    audio.play();
+                });
+            </script>
+            
+            <br>
         <img src="./IMG/yo.jpg" alt="yo">
         <p>Amante de los videojuegos, leyenda del gaming, delegado de clase, adicto a las cariñosas, adicto a la caprichosa, rockero, rapero, cumbiantero, gordo forro, fuma churro, exfalopero... soy la bestia, tengo lo que quiero, empecé desde abajo y ahora me cago en el dinero.</p>
         <a href="https://www.canva.com/design/DAGWWoFb4E0/fv0cl1vOieq7Yne0TywZyA/view?utm_content=DAGWWoFb4E0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h03440061e1"><p><strong>mas sobre mi</strong></p></a>
