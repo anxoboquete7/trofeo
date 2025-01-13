@@ -175,4 +175,12 @@ footer ul.social-links a:hover {
         max-width: 90%; /* Aumentar el tamaño de la imagen en pantallas pequeñas */
         height: auto; /* Mantener la relación de aspecto */
     }
+
+    
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 } 
