@@ -10,6 +10,30 @@
     <header>
             <img src="./IMG/logo.png" alt="logo">
             <h1>furacus23</h1>
+            
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Buscar..." onkeyup="searchTitles()" />
+                <button class="search-button">
+                    🔍
+                </button>
+            </div>
+
+            <script>
+                function searchTitles() {
+                    const input = document.getElementById("search").value.toLowerCase();
+                    const articles = document.querySelectorAll("article");
+        
+                    articles.forEach(article => {
+                        const title = article.querySelector("h2").textContent.toLowerCase();
+                        if (title.includes(input)) {
+                            article.style.display = ""; // Muestra el artículo
+                        } else {
+                            article.style.display = "none"; // Oculta el artículo
+                        }
+                    });
+                }
+            </script>
+            
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -51,7 +75,7 @@
                 });
             </script>
           
-            <section>
+            <section id="articles">
                 <article>
                     <img src="https://animeflv.net/uploads/animes/covers/2690.jpg" alt="shingeki no kyojin">
                     <h2>Shingeki no kyojin</h2>
@@ -109,7 +133,7 @@
                 </article>
                 <article>
                     <img src="https://animeflv.net/uploads/animes/covers/4034.jpg" alt="love is indivisible by twins">
-                    <h2>Love is indivisible bu twins</h2>
+                    <h2>Love is indivisible by twins</h2>
                     <p>Una comedia romántica donde un joven debe decidir entre dos gemelas que comparten una conexión inseparable, creando situaciones hilarantes y entrañables.</p>
                 </article>
                 <article>
@@ -225,8 +249,64 @@
                 <article>
                     <img src="https://animeflv.net/uploads/animes/covers/3690.jpg" alt="The eminence is shadow">
                     <h2>The Eminence in Shadow</h2>
-                    
+                    <p>Un joven obsesionado con convertirse en el poder oculto detrás de grandes eventos termina liderando una organización secreta sin darse cuenta del impacto real de sus acciones.</p>
                 </article>
+                <section id="articles">
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/1620.jpg" alt="Nanatsu no Taizai">
+                        <h2>Nanatsu no Taizai</h2>
+                        <p>Un grupo de poderosos caballeros caídos en desgracia se reúnen para salvar el reino de Britannia y enfrentarse a sus propios pecados y enemigos del pasado.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://www3.animeflv.net/uploads/animes/covers/3568.jpg" alt="My Dress-Up Darling">
+                        <h2>My Dress-Up Darling</h2>
+                        <p>La improbable amistad entre un tímido creador de muñecas y una extrovertida amante del cosplay florece en un vínculo lleno de creatividad y pasión.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://www3.animeflv.net/uploads/animes/covers/2897.jpg" alt="Darling in the Franxx">
+                        <h2>Darling in the Franxx</h2>
+                        <p>En un futuro postapocalíptico, jóvenes pilotos controlan robots gigantes para proteger a la humanidad mientras enfrentan complejas emociones y relaciones.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/3465.jpg" alt="Tokyo Revengers">
+                        <h2>Tokyo Revengers</h2>
+                        <p>Un hombre recibe la oportunidad de viajar al pasado para salvar a sus amigos y cambiar su destino enfrentándose a pandillas y decisiones difíciles.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/284.jpg" alt="Cowboy Bebop">
+                        <h2>Cowboy Bebop</h2>
+                        <p>Una banda de cazarrecompensas viaja por el espacio enfrentando peligros, enemigos y sus propios demonios personales en una serie llena de estilo y acción.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/2218.jpg" alt="One Punch Man">
+                        <h2>One Punch Man</h2>
+                        <p>Un héroe abrumadoramente fuerte que derrota a sus enemigos con un solo golpe lucha contra el aburrimiento y busca un verdadero desafío.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/1044.jpg" alt="Berserk">
+                        <h2>Berserk</h2>
+                        <p>La oscura historia de Guts, un mercenario marcado por el destino, mientras lucha por sobrevivir en un mundo lleno de traiciones, demonios y tragedias.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/3407.jpg" alt="SK8 the Infinity">
+                        <h2>SK8 the Infinity</h2>
+                        <p>Un grupo de jóvenes apasionados por el skateboarding compiten en carreras clandestinas llenas de adrenalina y desafíos personales.</p>
+                    </article>
+                
+                    <article>
+                        <img src="https://animeflv.net/uploads/animes/covers/339.jpg" alt="A Certain Scientific Railgun">
+                        <h2>A Certain Scientific Railgun</h2>
+                        <p>En la futurista Ciudad Academia, una poderosa esper controla la electricidad mientras enfrenta misterios y amenazas en un mundo de ciencia y poderes sobrenaturales.</p>
+                    </article>
+                </section>
+                
             </section>
     </main>
     <footer>
