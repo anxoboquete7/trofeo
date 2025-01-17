@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch('dataA.json')
   .then(response => response.json())
   .then(data => {
     const animeListContainer = document.getElementById('anime-list');

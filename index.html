@@ -3,21 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trofeo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="IMG/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="anime.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="./IMG/logo.png" alt="logo">
-        <h1>furacus23</h1>
+            <img src="./IMG/logo.png" alt="logo">
+            <h1>furacus23</h1>
+            
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Buscar..." onkeyup="searchTitles()" />
+                <button class="search-button">
+                    🔍
+                </button>
+            </div>
+
+            <script>
+                function searchTitles() {
+                    const input = document.getElementById("search").value.toLowerCase();
+                    const articles = document.querySelectorAll("article");
+        
+                    articles.forEach(article => {
+                        const title = article.querySelector("h2").textContent.toLowerCase();
+                        if (title.includes(input)) {
+                            article.style.display = ""; // Muestra el artículo
+                        } else {
+                            article.style.display = "none"; // Oculta el artículo
+                        }
+                    });
+                }
+            </script>
+            
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="anime.html">Animes</a></li>
                 <li><a href="yo.html">Sobre mi</a></li>
-                <li><a href="https://www.tiktok.com/@reggaetrapyt/video/6982236061443378438?lang=es&q=yo%20se%20que%20estas%20consciente%20de%20lo%20que%20de%20mi%20te%20han%20dicho&t=1729875255034" target="_blank">Contacteme</a></li>
-
+                <li><a href="https://www.tiktok.com/@reggaetrapyt/video/6982236061443378438?lang=es&q=yo%20se%20que%20estas%20consciente%20de%20lo%20que%20de%20mi%20te%20han%20dicho&t=1729875255034">Contacteme</a></li>
             </ul>
         </nav>
     </header>
@@ -55,104 +77,8 @@
             </script>
           
 
-    <section>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202208/1718/phwiQjbJddEg979YucUoP3Vr.png" alt="Assassins Creed Mirage" >
-            <h2>Assassins Creed Mirage</h2>
-            <p>La última entrega de la franquicia que nos lleva a una aventura épica en el mundo de los asesinos y templarios.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png" alt="Minecraft">
-            <h2>Minecraft</h2>
-            <p>Un juego de mundo abierto donde puedes construir cualquier cosa con bloques y explorar un vasto mundo generado aleatoriamente.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202208/0517/ct7PEnuk1fJjCaSEzZv08bBu.png" alt="My Friend Peppa Pig" width="340" height="450">
-            <h2>My Friend Peppa Pig</h2>
-            <p>Un juego para toda la familia donde puedes unirte a Peppa en divertidas aventuras por su mundo.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA05847_00/2/i_156be5fdc23a961f0e2b05974c0df5ecfd6169b09aa25e5c510ec7e6e1ad683f/i/icon0.png" alt="Far Cry 5" width="340" height="450">
-            <h2>Far Cry 5</h2>
-            <p>Un emocionante juego de disparos en un vasto mundo abierto donde te enfrentas a una secta en Montana.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/2818/4xjRkRmOm9wklCdSWXVMaXBi.png" alt="Ghostrunner" width="340" height="450">
-            <h2>Ghostrunner</h2>
-            <p>Un desafiante juego de acción en primera persona ambientado en un mundo cyberpunk donde la velocidad y la precisión son claves.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/cdn/EP0096/CUSA10960_00/cuI1U7aOlcNroxMB8PLCzFP7eghxrYKN.png?w=440&thumb=false" alt="Hello Neighbor">
-            <h2>Hello Neighbor</h2>
-            <p>Un juego de terror y sigilo donde intentas descubrir los secretos oscuros de tu vecino.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/0Xqi1LgRoEtJ5zlFprpd54Vu.png" alt="It Takes Two">
-            <h2>It Takes Two</h2>
-            <p>Un galardonado juego cooperativo donde dos jugadores deben trabajar juntos para superar divertidos y creativos desafíos.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA23079_00/5/i_92b201327569550fac6ba444ee01c51e0a3bb789821f82762098305aac239227/i/icon0.png" alt="Untitled Goose Game">
-            <h2>Untitled Goose Game</h2>
-            <p>Un juego divertido donde juegas como un ganso travieso que causa caos en una aldea tranquila.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA00102_00/5/i_400e613ca046e7d96dc34d38298c8016c0f31a5a5a1fa1a209b506a8ac889c01/i/icon0.png" alt="Tierra Media: Sombras de Mordor">
-            <h2>Tierra Media: Sombras de Mordor</h2>
-            <p>Un juego de acción ambientado en el universo de El Señor de los Anillos, donde te enfrentas a los orcos y descubres los secretos de Mordor.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202012/1013/DKYIpVhskEQ4jbzr1PVxsO0Z.png" alt="Star Wars Jedi: Fallen Order">
-            <h2>Star Wars Jedi: Fallen Order</h2>
-            <p>Una aventura épica en el universo de Star Wars donde juegas como un joven Jedi que lucha por sobrevivir después de la Orden 66.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/niMUubpU9y1PxNvYmDfb8QFD.png" alt="Ghost of Tsushima">
-            <h2>Ghost of Tsushima</h2>
-            <p>Un hermoso juego de mundo abierto ambientado en el Japón feudal, donde luchas como un samurái para liberar tu tierra de los invasores.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202011/0402/C784xeOFo2wViCf4m5bxgoeH.png" alt="Marvel Spiderman">
-            <h2>Marvel Spiderman</h2>
-            <p>Un emocionante juego de acción donde te conviertes en Spider-Man y proteges la ciudad de Nueva York de peligrosas amenazas.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png" alt="Spiderman Miles Morales">
-            <h2>Spiderman Miles Morales</h2>
-            <p>Sumérgete en la historia de Miles Morales mientras asume el rol de Spider-Man y protege su hogar en Harlem. Enfréntate a nuevos enemigos y descubre sus poderes únicos en esta emocionante secuela llena de acción y desafíos.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/0912/zyfHJI8dpjblBAyI4MWonOQ9.png" alt="Bob Esponja">
-            <h2>Bob Esponja: Batalla por fondo de bikini</h2>
-            <p>Acompaña a Bob Esponja y sus amigos en su misión para salvar Fondo de Bikini del malvado Plancton. Disfruta de un divertido juego de plataformas con gráficos mejorados y el humor clásico de la serie.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA13632_00/4/i_e7895b1722ebc8586d69ccb7166c0fe5c70462211e04abdb85a2b80c98032030/i/icon0_03.png" alt="Hollow Knight">
-            <h2>Hollow Knight</h2>
-            <p>Explora un vasto y misterioso mundo subterráneo en <strong>Hollow Knight</strong>, un juego de aventura y acción en 2D donde encarnas a un valiente caballero insecto. Enfréntate a desafiantes enemigos y desentraña los secretos de la antigua ciudad de Hallownest.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/img/rnd/202011/1021/X3WIAh63yKhRRiMohLoJMeQu.png" slt="God of War">
-            <h2>God of War</h2>
-            <p>Embárcate en una épica aventura junto a Kratos y su hijo Atreus en <strong>God of War (2018)</strong>. Explora la mitología nórdica y enfréntate a poderosos dioses y monstruos en un viaje lleno de desafíos emocionales y de combate intenso.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png?w=440&thumb=false" slt="God of War Ragnarök">
-            <h2>God of War Ragnarök</h2>
-            <p>Acompaña a Kratos y Atreus en <strong>God of War Ragnarök</strong> mientras enfrentan el inminente fin de los tiempos en la mitología nórdica. Explora vastos reinos, enfréntate a dioses y criaturas legendarias, y desentraña los secretos del destino en esta épica secuela que lleva la narrativa, el combate y la emoción a un nivel completamente nuevo.
-            </p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202106/0215/Pw9cWnyqkix3EoCOGqrN1cgN.png?w=440&thumb=false" slt="Marvel´s Guardians of the Galaxy">
-            <h2>Marvel Guardianes de la Galaxia</h2>
-            <p>Únete a Star-Lord y su peculiar equipo de inadaptados en una emocionante aventura galáctica en <strong>Marvel's Guardians of the Galaxy</strong>. Viaja por el cosmos, enfréntate a enemigos formidables y toma decisiones que darán forma al destino de la galaxia mientras disfrutas de un estilo único lleno de humor y acción épica.</p>
-        </article>
-        <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202208/0813/u7s4uL4Z0GPWfhOocyUT4WTp.png?w=440&thumb=false" slt="tinykin">
-            <h2>tinykin</h2>
-            <p>Embárcate en una encantadora aventura con Milo en <strong>Tinykin</strong>. Explora un mundo gigante y misterioso, resuelve acertijos creativos y lidera a adorables criaturas llamadas Tinykin para superar desafíos. Descubre secretos, reconstruye el pasado y disfruta de un estilo visual único lleno de humor y asombro.</p>
-        </article>
-    </section>
+    <section id="games-list"></section>
+    <script src="scriptVideojuegos.js"></script>
     <h1>Jugando ahora mismo en proceso de platinar</h1>
     <section>
         <article>
