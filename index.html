@@ -1,117 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="anime.css">
-    <link rel="shortcut icon" href="IMG/favicon-16x16.png" type="image/x-icon">
-    <title>Platinos</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Página Principal</title>
 </head>
 <body>
-    <header>
-            <img src="./IMG/logo.png" alt="logo">
-            <h1>furacus23</h1>
-            
-            <div class="search-container">
-                <input type="text" id="search" placeholder="Buscar..." onkeyup="searchTitles()" />
-                <button class="search-button">
-                    🔍
-                </button>
-            </div>
-
-            <script>
-                function searchTitles() {
-                    const input = document.getElementById("search").value.toLowerCase();
-                    const articles = document.querySelectorAll("article");
-        
-                    articles.forEach(article => {
-                        const title = article.querySelector("h2").textContent.toLowerCase();
-                        if (title.includes(input)) {
-                            article.style.display = ""; // Muestra el artículo
-                        } else {
-                            article.style.display = "none"; // Oculta el artículo
-                        }
-                    });
-                }
-            </script>
-            
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="anime.html">Animes</a></li>
-                <li><a href="yo.html">Sobre mi</a></li>
-                <li><a href="https://www.tiktok.com/@reggaetrapyt/video/6982236061443378438?lang=es&q=yo%20se%20que%20estas%20consciente%20de%20lo%20que%20de%20mi%20te%20han%20dicho&t=1729875255034">Contacteme</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        
-        <audio autoplay loop style="display: none;"> 
-            <source src="/IMG/Wii Music - Gaming Background Music (HD).mp3" type="audio/mp3"> 
-            Tu navegador no soporta el elemento de audio. 
-        </audio>
-        <script>
-            window.addEventListener('load', function() {
-              var audio = document.querySelector('audio');
-              audio.play().catch(function(error) {
-                console.log("El navegador impidió la reproducción automática: " + error);
-              });
-            });
-            </script>
-            <script>
-                function playAudio() {
-                    var audio = document.querySelector('audio');
-                    audio.play();
-                }
-            
-                window.addEventListener('load', function() {
-                    var audio = document.querySelector('audio');
-                    audio.play().catch(function(error) {
-                        console.log("El navegador impidió la reproducción automática: " + error);
-                    });
-                });
-            
-                document.addEventListener('click', function() {
-                    var audio = document.querySelector('audio');
-                    audio.play();
-                });
-            </script>
-          
-
-    <section id="games-list"></section>
-    <script src="scriptVideojuegos.js"></script>
-    <h1>Jugando ahora mismo en proceso de platinar</h1>
     <section>
         <article>
-            <img src="https://image.api.playstation.com/vulcan/img/rnd/202011/2320/E3hXKQ8iL9BJtAT8gR9nmIMF.png?w=440&thumb=false" slt="Bloodborne">
-            <h2>bloodborne</h2>
-            <p>Adéntrate en la oscura y retorcida ciudad de Yharnam en <strong>Bloodborne</strong>, un juego de acción y terror gótico. Enfréntate a criaturas aterradoras, desvela secretos ancestrales y desafía tus habilidades en intensos combates. Con una atmósfera opresiva y una narrativa misteriosa, este viaje pondrá a prueba tu coraje y determinación.</p>
+            <a href="platinos.html">
+                <img src="https://i.pinimg.com/736x/20/e0/a7/20e0a7be75e50013e865d0ca7c3c2000.jpg" alt="">
+                <span class="option option1">Platinos</span>
+            </a>
         </article>
         <article>
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202310/1220/6a921a1ba89112c13814510c59593d05f8b0f32a5b2ad9aa.png?w=440&thumb=false" slt="Suicide Squad kills the Justice League">
-            <h2>Suicide Squad kills the Justice League</h2>
-            <p>Únete al Escuadrón Suicida en su misión más peligrosa en <strong>Suicide Squad: Kill the Justice League</strong>. Juega como Harley Quinn, Deadshot, King Shark y Captain Boomerang mientras enfrentan a una Liga de la Justicia corrompida. Combina acción frenética, humor oscuro y una historia única en este explosivo juego del universo DC.</p>        </article>
+            <a href="anime.html">
+                <img src="https://wallpapers.com/images/hd/kimi-no-nawa-4k-anime-phone-5zsk890r63kxpdcz.jpg" alt="">
+                <span class="option option2">Animes</span>
+            </a>
         </article>
         <article>
-            <img src="https://image.api.playstation.com/cdn/EP1018/CUSA00135_00/gIBLibuNu1I91g9FYzkqBJFLMd1X9OaD.png?w=440&thumb=false" slt="Batman Arkham Knight">
-            <h2>Batman Arkham Knight</h2>
-            <p>Ponte la capa del Caballero de la Noche en <strong> Arkham Knight</strong>, la épica conclusión de la saga Arkham. Protege Gotham de la amenaza del Espantapájaros y sus aliados mientras enfrentas nuevos desafíos y enemigos mortales. Con un mundo abierto impresionante, combates dinámicos y el icónico Batimóvil, vive la experiencia definitiva de ser Batman.</p>        </article>
+            <a href="pagina3.html">
+                <img src="https://img.freepik.com/premium-photo/vintage-movie-posters-phone-background-image-mobile-phone-background-modern-wallpaper_1020697-524804.jpg" alt="">
+                <span class="option option3">Peliculas</span>
+            </a>
+        </article>
     </section>
-    <section class="psn-profile">
-        <h1>Mi Perfil de PSN</h1>
-        <a href="https://psnprofiles.com/furacus23" target="_blank">
-            <img src="https://card.psnprofiles.com/2/furacus23.png" alt="Tarjeta PSN furacus23" border="0">
-        </a>
-    </section>
-    </main>
-    <footer>
-        <h3>Conéctate conmigo</h3>
-        <ul class="social-links">
-            <li><a href="https://x.com/anxoboquete7_pl" target="_blank">Twitter</a></li>
-            <li><a href="https://www.instagram.com/anxoboquete7_pl/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.youtube.com/watch?v=G0o5dBxLcO8" target="_blank">OnlyFans</a></li>
-        </ul>
-        <p>&copy; 2024 Mi Perfil de PSN. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
