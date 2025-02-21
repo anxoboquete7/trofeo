@@ -82,3 +82,38 @@ fetch('dataA.json')
   })
   .catch(error => console.error('Error al cargar los datos:', error));
 
+  f// Definir la función global para contar elementos de un JSON
+function contarElementosPlatino(jsonFile, countId) {
+  fetch(jsonFile)
+    .then(response => response.json())
+    .then(data => {
+      const countContainer = document.getElementById(countId);
+
+      if (!countContainer) {
+        console.error(`Error: No se encontró el contenedor con ID ${countId}`);
+        return;
+      }
+
+      // Mostrar la cantidad de elementos
+      countContainer.textContent = `Total de platinos: ${data.length}`;
+    })
+    .catch(error => console.error(`Error al cargar los datos de ${jsonFile}:`, error));
+}
+
+  
+function contarElementosAnime(jsonFile, countId) {
+  fetch(jsonFile)
+    .then(response => response.json())
+    .then(data => {
+      const countContainer = document.getElementById(countId);
+
+      if (!countContainer) {
+        console.error(`Error: No se encontró el contenedor con ID ${countId}`);
+        return;
+      }
+
+      // Mostrar la cantidad de elementos
+      countContainer.textContent = `Total de animes vistos: ${data.length}`;
+    })
+    .catch(error => console.error(`Error al cargar los datos de ${jsonFile}:`, error));
+}
