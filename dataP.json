@@ -43,6 +43,36 @@
     "description": "Suzume, una joven que vive en Japón, se ve involucrada en una misteriosa aventura cuando descubre una puerta que conecta con desastres naturales. A lo largo de su viaje, Suzume enfrenta desafíos mientras busca proteger su país de las fuerzas desatadas por estos eventos."
 },
 {
+    "img": "https://resizing.flixster.com/iBPi8jYYfJgouPuxoKHMcg6vme4=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29821_p_v13_ai.jpg",
+    "alt": "Imagen de Spider-Man",
+    "title": "Spider-Man",
+    "description": "Peter Parker, un estudiante de secundaria, adquiere habilidades arácnidas después de ser mordido por una araña genéticamente modificada y lucha contra el Duende Verde."
+},
+{
+    "img": "https://resizing.flixster.com/jgOdy-2VT67-A3SijMlJUC_uVbA=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34442_p_v10_aq.jpg",
+    "alt": "Imagen de Spider-Man 2",
+    "title": "Spider-Man 2",
+    "description": "Peter Parker lucha por equilibrar su vida personal con sus deberes como Spider-Man mientras enfrenta al Doctor Octopus."
+},
+{
+    "img": "https://resizing.flixster.com/BtYcCLpD6319Mya6Y2pJwV14SNY=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p159366_p_v10_at.jpg",
+    "alt": "Imagen de Spider-Man 3",
+    "title": "Spider-Man 3",
+    "description": "Peter Parker debe enfrentar varios desafíos, incluyendo al Hombre de Arena, el regreso del Duende Verde y la influencia del simbionte alienígena."
+},
+{
+    "img": "https://resizing.flixster.com/xCvhLoukJJIAzltQJqZlUaMjsVs=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8548776_p_v13_bf.jpg",
+    "alt": "Imagen de The Amazing Spider-Man",
+    "title": "The Amazing Spider-Man",
+    "description": "Peter Parker descubre secretos sobre el pasado de su familia mientras lucha contra el Lagarto."
+},
+{
+  "img": "https://resizing.flixster.com/7TkmDMsD8_9ZWHvcbvKUU7ev3-8=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9957538_p_v12_ad.jpg",
+  "alt": "Imagen de The Amazing Spider-Man 2",
+  "title": "The Amazing Spider-Man 2",
+  "description": "Peter Parker se enfrenta a nuevos villanos como Electro y al regreso de Harry Osborn mientras descubre más sobre la muerte de sus padres."
+},
+{
     "img": "https://resizing.flixster.com/3pxO4cKBL9QjNOkV42mTU4USCMc=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p170620_p_v13_ae.jpg",
     "alt": "Imagen de los personajes de Iron Man",
     "title": "Iron Man",
@@ -247,9 +277,81 @@
     "description": "Eddie Brock y Venom deben enfrentarse a un nuevo y peligroso enemigo: Cletus Kasady, un asesino en serie que se convierte en el host de un simbionte aún más letal, Carnage. La batalla entre ambos simbiontes desata una lucha épica por la supervivencia."
   },
   {
+    "img": "https://resizing.flixster.com/Xb-LkBRpufz5gB0Jp6fBki-yWfs=/206x305/v2/https://resizing.flixster.com/7pW-Wl_tjIUnlcPkLYudVsZS-00=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2RkYTQyZjkxLWZjYzItNGM5Yy1hN2FiLTA0YWQwMTAzNjVmZC5qcGc=",
+    "alt": "Imagen de Venom: El Último Baile",
+    "title": "Venom: El Último Baile",
+    "description": "Eddie Brock y Venom enfrentan su batalla final, luchando por su destino mientras nuevas amenazas ponen a prueba su vínculo simbiótico y su humanidad."
+  },  
+  {
     "img": "https://resizing.flixster.com/OBCMbeYEWS5tI2QhErFskxKyEa0=/206x305/v2/https://resizing.flixster.com/mPJp85eApHd8ih9XF5E9d3-2LbM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzUxODlkZDE1LTQyYjUtNDg5ZS05NjZmLWMxZDk1YWZhN2E1ZC5qcGc=",
     "alt": "Imagen de los personajes de Deadpool 3",
     "title": "Deadpool y Wolverine",
     "description": "Deadpool regresa para una nueva aventura que promete romper la cuarta pared y expandir el universo de Marvel, con la incorporación de Wolverine, un personaje clave que se unirá al caótico antihéroe en una nueva misión llena de humor y acción."
+  },
+  {
+    "img": "https://resizing.flixster.com/PdY0W4Npx-r6b8N94amjhbDhsTw=/206x305/v2/https://resizing.flixster.com/0denJR04dSiqMALnoaFHG4LMQI0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2U2NTcwNTU5LWM1OTYtNDA2OC1iNDRmLTMzYzM3ZGEwMGFmMC5qcGc=",
+    "alt": "Imagen de Capitán América: Brave New World",
+    "title": "Capitán América: Brave New World",
+    "description": "Sam Wilson asume el legado del Capitán América, enfrentándose a nuevos desafíos y enemigos en su lucha por la justicia y la libertad."
+  },
+  {
+    "img": "https://resizing.flixster.com/uPC9C1eXrgHzvKan48cxJ9WFPKI=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9259673_p_v10_an.jpg",
+    "alt": "Imagen de El Hombre de Acero",
+    "title": "El Hombre de Acero",
+    "description": "Clark Kent descubre su origen alienígena y acepta su destino como Superman para proteger la Tierra de amenazas extraterrestres."
+  },
+  {
+    "img": "https://resizing.flixster.com/s18oYWZuaj9DRfgd0AaAfXtvcMk=/206x305/v2/https://resizing.flixster.com/wliboVdo7cDC77pTzTCVk69_s18=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzM2NGE2MDdmLTU2YmYtNDU4ZC1iZGQzLTY4MWE0ZTgyODkyMy53ZWJw",
+    "alt": "Imagen de Batman v Superman: El Amanecer de la Justicia",
+    "title": "Batman v Superman: El Amanecer de la Justicia",
+    "description": "Batman y Superman chocan por sus diferencias ideológicas mientras una nueva amenaza se cierne sobre la humanidad."
+  },
+  {
+    "img": "https://resizing.flixster.com/gRFYG4prl_aUkkB_PNeid3lm5tc=/206x305/v2/https://resizing.flixster.com/rC3sJz0RqVipyZYggXs2CLCe5gI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFmMmU2NWQxLTQ4ODAtNDc5Zi05MmE3LWVhYzU3M2IwZjU1NS53ZWJw",
+    "alt": "Imagen de La Liga de la Justicia (2017)",
+    "title": "La Liga de la Justicia",
+    "description": "Batman reúne a un grupo de héroes para proteger la Tierra de una inminente invasión alienígena liderada por Steppenwolf."
+  },
+  {
+    "img": "https://resizing.flixster.com/IVMh7w2XnHMytwAwSaiXeocQ7NU=/206x305/v2/https://resizing.flixster.com/50SbC39OF-DRMPtiQIkDvrmV2SI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzBlOWJiYmU5LTdhMmYtNGU5YS04YmYyLTkwZWMyNDA0ZmZjMC5qcGc=",
+    "alt": "Imagen de La Liga de la Justicia de Zack Snyder",
+    "title": "La Liga de la Justicia de Zack Snyder",
+    "description": "La visión definitiva de Zack Snyder para la Liga de la Justicia, con una narrativa más profunda y un tono más oscuro."
+  },
+  {
+    "img": "https://resizing.flixster.com/RPGddp_AJ8j7O01gWPebUQkZD1c=/206x305/v2/https://resizing.flixster.com/Hm4c08vS5kceTzWphzzqJN2FtNY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzUxMDhmN2IxLTE0OWYtNDIwYy05ZjVlLTk1MWUwNzJhYjEwMi53ZWJw",
+    "alt": "Imagen de Shazam!",
+    "title": "Shazam!",
+    "description": "Un adolescente obtiene la capacidad de transformarse en un superhéroe adulto con solo pronunciar la palabra 'Shazam'."
+  },
+  {
+    "img": "https://resizing.flixster.com/d0a3-JHlgHGmF8S_pLULoHkkgW0=/206x305/v2/https://resizing.flixster.com/AnBk7Sm69ZC6OPXJAdZOyCaPQ_k=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzIxMGQyZDBhLTI1MmEtNGM5NS1iZWU2LWQ5MGNhYmQ4OThjNi5qcGc=",
+    "alt": "Imagen de Shazam! La Furia de los Dioses",
+    "title": "Shazam! La Furia de los Dioses",
+    "description": "Billy Batson y su familia adoptiva enfrentan nuevas amenazas divinas mientras aprenden a ser verdaderos héroes."
+  },
+  {
+    "img": "https://resizing.flixster.com/eZoa81TpJQ8DFvhQZAKqzPTCkNA=/206x305/v2/https://resizing.flixster.com/oV9ExzAFUOnlqgtCAM0-aL2fXUs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzg5ZDA3ZGQ4LTE2NDUtNDUyNi04NTZjLTk3Y2MyZTAyODAyOS53ZWJw",
+    "alt": "Imagen de Wonder Woman",
+    "title": "Wonder Woman",
+    "description": "Diana, princesa de las amazonas, deja su hogar para detener la Primera Guerra Mundial y descubrir su verdadero poder."
+  },
+  {
+    "img": "https://resizing.flixster.com/gjDP0NvcZjlBzYP6wF94RwNh8a4=/206x305/v2/https://resizing.flixster.com/rz5DiWXTVEJeaL7aIoklHG4JMyI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2QwYzZkYTVhLTE1MjYtNDg0Ni05ZTM3LTgxYWE0ZmJiNzZkYS5qcGc=",
+    "alt": "Imagen de Wonder Woman 1984",
+    "title": "Wonder Woman 1984",
+    "description": "Diana Prince debe enfrentarse a dos nuevos enemigos, Maxwell Lord y Cheetah, en la década de los 80."
+  },
+  {
+    "img": "https://resizing.flixster.com/YDdRgWm1dsAAffl-U99wOf9v6fQ=/206x305/v2/https://resizing.flixster.com/HUwAlW1QAya1vlIePUDv3kdzhIE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzc1OGFlMDI0LTE1ZTEtNDE4ZS04Y2RmLWNjYzcyOWQyZmMyNi5qcGc=",
+    "alt": "Imagen de The Batman",
+    "title": "The Batman",
+    "description": "Bruce Wayne, en sus primeros años como Batman, investiga una red de corrupción en Gotham mientras enfrenta al enigmático Acertijo."
+  },
+  {
+    "img": "https://resizing.flixster.com/VCY-JRX4_Gyjlr3nR2NOkOwf4uI=/206x305/v2/https://resizing.flixster.com/yJddG_H0bEEgyvFj2x_grJ-Y-2k=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzFkODBmNjU5LTlhYjEtNGUyYy04Y2I0LWUxYWZmMWMzNWMwNC53ZWJw",
+    "alt": "Imagen de Aquaman",
+    "title": "Aquaman",
+    "description": "Arthur Curry descubre que es el heredero del reino submarino de la Atlántida y debe dar un paso al frente para liderar a su pueblo."
   }
 ]
