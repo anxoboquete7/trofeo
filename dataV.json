@@ -36,6 +36,12 @@
       "description": "Un juego de terror y sigilo donde intentas descubrir los secretos oscuros de tu vecino."
     },
     {
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0920/4a4f55508e2143d0836eaf5a8dd8f016c38f8b92b7815ea0.png?w=440&thumb=false",
+      "alt": "Hello Neighbor 2",
+      "title": "Hello Neighbor 2",
+      "description": "Regresa al inquietante vecindario en Hello Neighbor 2, donde deberás investigar la misteriosa desaparición de varios residentes. Explora una ciudad abierta, resuelve acertijos y evita al enigmático vecino controlado por una IA avanzada que aprende de tus movimientos. Una experiencia de sigilo y suspense en constante evolución donde nada es lo que parece."
+    },
+    {
       "img": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/0Xqi1LgRoEtJ5zlFprpd54Vu.png",
       "alt": "It Takes Two",
       "title": "It Takes Two",
@@ -150,10 +156,16 @@
       "description": "Sumérgete en las profundidades de un océano vibrante y peligroso en Another Crab's Treasure, un soulslike de aventuras submarinas protagonizado por un cangrejo en busca de su concha perdida. Usa basura como armadura, lucha contra enemigos marinos extraños y explora un mundo acuático lleno de secretos. Una experiencia única que combina desafío, humor y crítica ambiental."
     },
     {
-      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0920/4a4f55508e2143d0836eaf5a8dd8f016c38f8b92b7815ea0.png?w=440&thumb=false",
-      "alt": "Hello Neighbor 2",
-      "title": "Hello Neighbor 2",
-      "description": "Regresa al inquietante vecindario en Hello Neighbor 2, donde deberás investigar la misteriosa desaparición de varios residentes. Explora una ciudad abierta, resuelve acertijos y evita al enigmático vecino controlado por una IA avanzada que aprende de tus movimientos. Una experiencia de sigilo y suspense en constante evolución donde nada es lo que parece."
-    }
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202207/2509/R820g5SsJMLm5Zw95QPvZLTp.png",
+      "alt": "Arcade Paradise",
+      "title": "Arcade Paradise",
+      "description": "Convierte una lavandería familiar en la mejor sala de juegos de todos los tiempos en Arcade Paradise. Administra el negocio, invierte en nuevas máquinas arcade y juega más de 35 títulos inspirados en los clásicos de los años 90. Con una mezcla de gestión, nostalgia retro y jugabilidad arcade adictiva, este juego te ofrece una experiencia única mientras transformas lo ordinario en extraordinario."
+    },
+    {
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202009/2814/GGyEnCkIXoyiVlN9sRHkzUPo.png",
+      "alt": "DOOM 2016",
+      "title": "DOOM 2016",
+      "description": "Enfréntate a hordas demoníacas en DOOM 2016, un frenético shooter en primera persona. Con un arsenal devastador y una jugabilidad rápida, desata el caos en entornos infernales mientras luchas por la supervivencia. Experimenta la adrenalina pura y la acción sin límites en este regreso triunfal a la icónica franquicia de videojuegos."
+    }    
   ]
   
