@@ -174,11 +174,16 @@
     "description": "Rainbow Six Siege es un shooter táctico competitivo en el que la estrategia, la cooperación y la precisión son clave. Forma parte de un equipo de élite con habilidades únicas, domina escenarios destructibles y enfréntate a intensos combates 5 contra 5. Con actualizaciones constantes, operadores nuevos y una comunidad activa, Siege ofrece una experiencia profunda y desafiante para quienes buscan acción táctica sin igual."
    },
    {
-  "img": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0721/00dd43384a1ed60cd7453428dd5c6897b35b013d4b98965d.png?w=440&thumb=false",
-  "alt": "Fall Guys",
-  "title": "Fall Guys",
-  "description": "Fall Guys es un colorido y caótico battle royale de plataformas donde hasta 60 jugadores compiten en divertidas pruebas eliminatorias. Corre, salta y esquiva obstáculos en una serie de rondas absurdamente entretenidas hasta convertirte en el último en pie. Con eventos por temporada, trajes personalizables y desafíos locos, Fall Guys garantiza risas y diversión sin parar para jugadores de todas las edades."
-}
-   
+    "img": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0721/00dd43384a1ed60cd7453428dd5c6897b35b013d4b98965d.png?w=440&thumb=false",
+    "alt": "Fall Guys",
+    "title": "Fall Guys",
+    "description": "Fall Guys es un colorido y caótico battle royale de plataformas donde hasta 60 jugadores compiten en divertidas pruebas eliminatorias. Corre, salta y esquiva obstáculos en una serie de rondas absurdamente entretenidas hasta convertirte en el último en pie. Con eventos por temporada, trajes personalizables y desafíos locos, Fall Guys garantiza risas y diversión sin parar para jugadores de todas las edades."
+  },
+  {
+    "img": "https://image.api.playstation.com/vulcan/ap/rnd/202412/2612/71eaca80e20aac3519d2d4f3d3a384878a114008f0532b62.png?w=440&thumb=false",
+    "alt": "Piece Out",
+    "title": "Piece Out",
+    "description": "Piece Out es un relajante y adictivo juego de puzles en el que deslizas, giras y volteas bloques para resolver niveles ingeniosos. Sin límite de tiempo y sin presión, puedes disfrutar de más de 700 acertijos, con un nuevo desafío extra difícil cada día. Ideado para ejercitar la mente mientras liberas tu paz interior."
+  }
   ]
   
